@@ -1,0 +1,7 @@
+TODO Task 1
+
+For local:
+mongoimport --uri mongodb://localhost:27017/ecommerce --collection products --file data/products.csv --type csv --headerline
+
+For railway:
+mongoimport --uri mongodb://mongo:[pw]@viaduct.proxy.rlwy.net:44955/ecommerce --collection products --file data/products.csv --type csv --headerline --authenticationDatabase=admin 
